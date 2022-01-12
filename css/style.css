@@ -79,11 +79,13 @@ body {
 .column-nav {
     width: 25%;
     float: left;
+    position: fixed;
 }
 
 .column-75 {
     width: 75%;
     float: left;
+    margin-left: 25%;
 }
 
 
@@ -207,5 +209,11 @@ footer p {
     .column-75,
     .column-nav {
         width: 100%;
+    }
+    .column-75 {
+        margin-left: 0;
+    }
+    .column-nav {
+        position: relative;
     }
 }
